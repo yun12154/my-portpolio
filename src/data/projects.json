@@ -1,23 +1,23 @@
 [
   {
     "id": 1,
-    "title": "개인 블로그",
-    "description": "React와 Markdown으로 만든 심플한 블로그",
-    "image": "https://via.placeholder.com/400x200",
-    "url": "https://example.com/blog"
+    "title": "포트폴리오 1",
+    "description": "심플하고 깔끔한 첫 번째 포트폴리오 예시입니다.",
+    "image": "https://source.unsplash.com/random/800x400?nature",
+    "url": "#"
   },
   {
     "id": 2,
-    "title": "쇼핑몰 사이트",
-    "description": "결제 연동까지 완성한 풀스택 쇼핑몰",
-    "image": "https://via.placeholder.com/400x200",
-    "url": "https://example.com/shop"
+    "title": "포트폴리오 2",
+    "description": "다양한 애니메이션과 인터랙션을 담은 두 번째 예시입니다.",
+    "image": "https://source.unsplash.com/random/800x400?city",
+    "url": "#"
   },
   {
     "id": 3,
-    "title": "포트폴리오",
-    "description": "반응형으로 제작된 내 포트폴리오",
-    "image": "https://via.placeholder.com/400x200",
-    "url": "https://example.com/portfolio"
+    "title": "포트폴리오 3",
+    "description": "반응형과 모던 디자인을 보여주는 세 번째 예시입니다.",
+    "image": "https://source.unsplash.com/random/800x400?technology",
+    "url": "#"
   }
 ]
