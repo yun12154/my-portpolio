@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "My First Project",
+    "description": "This is a simple project.",
+    "image": "https://via.placeholder.com/400x200",
+    "url": "https://example.com"
+  },
+  {
+    "id": 2,
+    "title": "Second Project",
+    "description": "Another amazing work!",
+    "image": "https://via.placeholder.com/400x200",
+    "url": "https://example.com"
+  }
+]
