@@ -3,21 +3,21 @@
     "id": 1,
     "title": "포트폴리오 1",
     "description": "심플하고 깔끔한 첫 번째 포트폴리오 예시입니다.",
-    "image": "https://source.unsplash.com/random/800x400?nature",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80",
     "url": "#"
   },
   {
     "id": 2,
     "title": "포트폴리오 2",
     "description": "다양한 애니메이션과 인터랙션을 담은 두 번째 예시입니다.",
-    "image": "https://source.unsplash.com/random/800x400?city",
+    "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?w=800&q=80",
     "url": "#"
   },
   {
     "id": 3,
     "title": "포트폴리오 3",
     "description": "반응형과 모던 디자인을 보여주는 세 번째 예시입니다.",
-    "image": "https://source.unsplash.com/random/800x400?technology",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&q=80",
     "url": "#"
   }
 ]
