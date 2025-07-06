@@ -12,36 +12,17 @@ export default function Hero() {
         id="tsparticles"
         init={particlesInit}
         options={{
-          background: {
-            color: { value: "#4f46e5" }, // 파란톤
-          },
+          background: { color: { value: "#4f46e5" } },
           fpsLimit: 60,
           interactivity: {
-            events: {
-              onClick: { enable: true, mode: "push" },
-              onHover: { enable: true, mode: "repulse" },
-            },
-            modes: {
-              push: { quantity: 4 },
-              repulse: { distance: 100, duration: 0.4 },
-            },
+            events: { onHover: { enable: true, mode: "repulse" } },
+            modes: { repulse: { distance: 100, duration: 0.4 } },
           },
           particles: {
             color: { value: "#ffffff" },
-            links: {
-              color: "#ffffff",
-              distance: 150,
-              enable: true,
-              opacity: 0.5,
-              width: 1,
-            },
-            move: {
-              direction: "none",
-              enable: true,
-              outModes: { default: "bounce" },
-              speed: 2,
-            },
-            number: { density: { enable: true, area: 800 }, value: 60 },
+            links: { color: "#ffffff", distance: 150, enable: true, opacity: 0.5, width: 1 },
+            move: { enable: true, speed: 2 },
+            number: { value: 60 },
             opacity: { value: 0.5 },
             shape: { type: "circle" },
             size: { value: { min: 1, max: 5 } },
@@ -55,9 +36,14 @@ export default function Hero() {
         src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?crop=faces&fit=crop&h=300&w=300"
         alt="프로필 이미지"
         className="w-40 h-40 rounded-full object-cover mb-6 border-4 border-white shadow-lg"
+        data-aos="zoom-in"
       />
-      <h2 className="text-4xl md:text-6xl font-bold mb-4" data-aos="fade-up">안녕하세요! 준석입니다.</h2>
-      <p className="text-lg md:text-2xl mb-8" data-aos="fade-up" data-aos-delay="200">화려한 UI/UX를 사랑하는 개발자</p>
+      <h2 className="text-4xl md:text-6xl font-bold mb-4" data-aos="fade-up">
+        안녕하세요! 준석입니다.
+      </h2>
+      <p className="text-lg md:text-2xl mb-8" data-aos="fade-up" data-aos-delay="200">
+        화려한 UI/UX를 사랑하는 개발자
+      </p>
       <a
         href="#projects"
         className="bg-white text-blue-600 px-6 py-3 rounded-full font-bold hover:bg-gray-200 transition"
