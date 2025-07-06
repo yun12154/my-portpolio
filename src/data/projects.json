@@ -1,16 +1,23 @@
 [
   {
     "id": 1,
-    "title": "My First Project",
-    "description": "This is a simple project.",
+    "title": "개인 블로그",
+    "description": "React와 Markdown으로 만든 심플한 블로그",
     "image": "https://via.placeholder.com/400x200",
-    "url": "https://example.com"
+    "url": "https://example.com/blog"
   },
   {
     "id": 2,
-    "title": "Second Project",
-    "description": "Another amazing work!",
+    "title": "쇼핑몰 사이트",
+    "description": "결제 연동까지 완성한 풀스택 쇼핑몰",
     "image": "https://via.placeholder.com/400x200",
-    "url": "https://example.com"
+    "url": "https://example.com/shop"
+  },
+  {
+    "id": 3,
+    "title": "포트폴리오",
+    "description": "반응형으로 제작된 내 포트폴리오",
+    "image": "https://via.placeholder.com/400x200",
+    "url": "https://example.com/portfolio"
   }
 ]
