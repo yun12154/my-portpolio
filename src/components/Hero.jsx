@@ -8,7 +8,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative h-screen flex flex-col justify-center items-center text-center text-white overflow-hidden bg-black">
+    <section id="hero" className="relative h-screen flex flex-col justify-center items-center text-center text-white overflow-hidden bg-black">
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -33,7 +33,7 @@ export default function Hero() {
         className="absolute inset-0 -z-10"
       />
 
-      <h2 className="text-5xl md:text-7xl font-extrabold mb-6 drop-shadow-neon" data-aos="fade-up">
+      <h2 className="text-4xl sm:text-5xl md:text-7xl font-extrabold mb-6 drop-shadow-neon" data-aos="fade-up">
         I MAKE IDEAS REAL.
       </h2>
 
@@ -48,14 +48,13 @@ export default function Hero() {
         ]}
         wrapper="span"
         speed={50}
-        className="text-xl md:text-3xl text-cyan-400"
+        className="text-lg sm:text-xl md:text-3xl text-cyan-400"
         repeat={Infinity}
       />
 
-      {/* ✅ CTA 버튼 추가! */}
       <a
         href="#projects"
-        className="mt-8 inline-block bg-cyan-500 hover:bg-cyan-600 text-white font-semibold py-3 px-6 rounded-md transition-colors"
+        className="mt-4 sm:mt-6 md:mt-8 inline-block bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-4 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4 rounded-md transition-colors"
       >
         프로젝트 보러가기
       </a>

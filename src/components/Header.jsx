@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export default function Header() {
+export default function Header({ darkMode, setDarkMode }) {
   const [activeSection, setActiveSection] = useState("hero");
 
   useEffect(() => {
@@ -27,49 +27,28 @@ export default function Header() {
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         <h1 className="text-2xl font-bold text-cyan-400">준석의 포트폴리오</h1>
         <nav>
-          <ul className="flex space-x-6">
+          <ul className="flex space-x-6 text-gray-300">
             <li>
-              <a
-                href="#hero"
-                className={`transition ${
-                  activeSection === "hero" ? "text-cyan-400" : "text-gray-300"
-                }`}
-              >
-                홈
-              </a>
+              <a href="#hero" className={`transition ${activeSection === "hero" ? "text-cyan-400" : ""}`}>홈</a>
             </li>
             <li>
-              <a
-                href="#about"
-                className={`transition ${
-                  activeSection === "about" ? "text-cyan-400" : "text-gray-300"
-                }`}
-              >
-                소개
-              </a>
+              <a href="#about" className={`transition ${activeSection === "about" ? "text-cyan-400" : ""}`}>소개</a>
             </li>
             <li>
-              <a
-                href="#projects"
-                className={`transition ${
-                  activeSection === "projects" ? "text-cyan-400" : "text-gray-300"
-                }`}
-              >
-                프로젝트
-              </a>
+              <a href="#projects" className={`transition ${activeSection === "projects" ? "text-cyan-400" : ""}`}>프로젝트</a>
             </li>
             <li>
-              <a
-                href="#contact"
-                className={`transition ${
-                  activeSection === "contact" ? "text-cyan-400" : "text-gray-300"
-                }`}
-              >
-                연락하기
-              </a>
+              <a href="#contact" className={`transition ${activeSection === "contact" ? "text-cyan-400" : ""}`}>연락하기</a>
             </li>
           </ul>
         </nav>
+
+        <button
+          onClick={() => setDarkMode(!darkMode)}
+          className="text-gray-300 hover:text-cyan-400 ml-6"
+        >
+          {darkMode ? "라이트모드" : "다크모드"}
+        </button>
       </div>
     </header>
   );
