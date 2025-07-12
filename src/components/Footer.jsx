@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="py-6 bg-black text-center text-gray-400 text-base">
       <div className="flex justify-center gap-6 mb-4">
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/yun12154"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-cyan-400 transition"
@@ -19,7 +19,7 @@ export default function Footer() {
           Velog
         </a>
         <a
-          href="https://instagram.com/yourusername"
+          href="https://instagram.com/jjunseokkk"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-cyan-400 transition"
