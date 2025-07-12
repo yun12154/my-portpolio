@@ -15,7 +15,10 @@ export default function Contact() {
         함께 만들고 싶은 멋진 아이디어가 있나요? 언제든 연락주세요!
       </p>
 
-      <form className="max-w-xl mx-auto flex flex-col gap-4 text-left">
+      <form
+        onSubmit={(e) => e.preventDefault()}
+        className="max-w-xl mx-auto flex flex-col gap-4 text-left"
+      >
         <input
           type="text"
           placeholder="이름"

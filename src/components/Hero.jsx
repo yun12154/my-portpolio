@@ -36,6 +36,7 @@ export default function Hero() {
       <h2 className="text-5xl md:text-7xl font-extrabold mb-6 drop-shadow-neon" data-aos="fade-up">
         I MAKE IDEAS REAL.
       </h2>
+
       <TypeAnimation
         sequence={[
           'Front-End Developer',
@@ -50,6 +51,14 @@ export default function Hero() {
         className="text-xl md:text-3xl text-cyan-400"
         repeat={Infinity}
       />
+
+      {/* ✅ CTA 버튼 추가! */}
+      <a
+        href="#projects"
+        className="mt-8 inline-block bg-cyan-500 hover:bg-cyan-600 text-white font-semibold py-3 px-6 rounded-md transition-colors"
+      >
+        프로젝트 보러가기
+      </a>
     </section>
   );
 }

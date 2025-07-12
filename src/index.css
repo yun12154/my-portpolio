@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* AOS CSS */
-@import "aos/dist/aos.css";
-
+/* ✅ 부드러운 스크롤 */
 html {
   scroll-behavior: smooth;
 }
